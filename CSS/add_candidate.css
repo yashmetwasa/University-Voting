@@ -1,0 +1,21 @@
+.control-label{
+text-align:left;
+padding:50px;
+margin-right:50PX;
+}
+.form-control{
+    width: 100%;
+    padding: 10px;
+	margin:10px;
+    text-align: center;
+    height:40px;
+    border: 1px solid #ccc;
+	border-radius: 5px 5px 0 0;
+	box-shadow:0px 0px 5px black; 
+    background: #fafafa;
+    transition:0.2s ease-in-out;
+}
+.form-group input:focus{
+    outline: 0;
+    background: #eee;
+}

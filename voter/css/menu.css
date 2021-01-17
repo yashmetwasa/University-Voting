@@ -1,0 +1,105 @@
+ul,ul ul{
+    padding:0px;
+    margin:0px;
+	list-style-type: none;
+	border:none;
+}
+
+/* For List type none */
+ul li, ul ul li {
+    display: inline;	
+}
+
+ul li:hover, ul ul li:hover{
+text-decoration:none;
+}
+ul ul li, ul ul li:hover{
+margin:2px;
+padding:2px;
+}
+
+/*Make the parent of sub-menu relative*/
+ul li {
+    position: relative;
+	margin-left:15px;
+}
+
+/*sub menu*/
+
+ul li:hover ul{
+    display:block;
+	border:none;
+	background-color:#333333;
+	color:#FFFFFF;
+	padding:0px;
+	width:220px;
+	padding:5px;
+}
+ul li ul li a:hover{
+color:#999999;
+background-color:#000000;
+}
+/*Link Appearance*/
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding:0px;
+	margin:0px;
+    display:inline-block;
+	font-size:15px;
+	
+}
+ ul li ul li a{
+ text-decoration:none;
+    margin:0PX;
+    padding:0px;
+     display:inline-block;	
+	 background-color:#333333;
+	color:#FFFFFF;
+	width:210px;
+ }
+ a:hover{
+ 	text-decoration:none
+ }
+ a:active{
+ 	text-decoration:none
+ }
+ span{
+	text-align:left;
+}
+.dropdown-submenu {
+    position: relative;
+}
+
+.dropdown-submenu .dropdown-menu {
+    top: 0;
+    left: 100%;
+    margin-top:0px;
+}
+.nav-link {
+    display:inline;
+    padding: 0.5rem 1rem;
+}
+li ul{
+border:none;
+box-border:none;
+}
+.dropdown-menu {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 10rem;
+    padding:0;
+    margin:0;
+    font-size: 1rem;
+    color: #999999;
+    text-align: left;
+    list-style: none;
+	background:transparent;
+    /* background-color: #fff; */
+    background-clip: padding-box;
+
+}

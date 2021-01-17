@@ -1,0 +1,53 @@
+a{
+text-decoration:none;
+}
+li a:hover{
+text-decoration:none
+}
+
+#cr_result
+{
+ padding:0px;
+ width:400px;
+ height:auto;
+ margin-left:20px;
+}
+g rect{
+ display:block;
+}
+
+body
+{
+color:#000000;
+ margin:0;
+ padding:0px;
+ text-align:center;
+ width:100%;
+ font-family: "Myriad Pro","Helvetica Neue",Helvetica,Arial,Sans-Serif;
+ background-color:#FAFAFA;
+}
+
+#cr_result
+{
+ padding:0px;
+ width:600px;
+ height:400px;
+ margin-left:190px;
+}
+
+li ul{
+border:none;
+box-border:none;
+}
+
+.result{
+height: 350px; 
+float:left; 
+margin:0; 
+margin-left:10px; 
+padding:0;
+}
+.col-sm-4{
+width:31%;
+}
+
